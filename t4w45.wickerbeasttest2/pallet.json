@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "t4w45.wickerbeasttest2",
+      "title": "wickerbeast test 2",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "t4w45",
+      "version": "0.0.0",
+      "sdkVersion": "0.3.4-1649",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "t4w45.wickerbeasttest2.Avatar.Wickerbeastv3",
+      "title": "Wickerbeast v 3",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "6038336bda6b1214385f5362c7f0ce1d",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "633a7ff47f4f93b4e9f960d0f4d3d910"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.AvatarCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}
